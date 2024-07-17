@@ -1,0 +1,118 @@
+.collection {
+    padding-top: 85px;
+    background-image: url(../../img/collection_mobile_bgi.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-bottom: 120px;
+}
+
+.collection_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, min-max(260px, 1fr));
+    gap: 48px;
+}
+
+.collection_item {
+    text-align: center;
+}
+
+.collection_img_block {
+    margin-bottom: 24px;
+}
+
+.collection_title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 133%;
+    color: #333d4b;
+    margin-bottom: 16px;
+}
+
+.collection_text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    color: #333d4b;
+}
+
+@media screen and (min-width:768px) {
+    .collection {
+        background-image: url(../../img/collection_tablet_bgi.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    .collection_item {
+        display: flex;
+        align-items: center;
+        column-gap: 35px;
+    }
+
+    .collection_img_block {
+        margin: 0;
+        width: 235px;
+    }
+
+    .collection_title_box {
+        text-align: start;
+    }
+
+    .collection_title {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 133%;
+        margin-bottom: 24px;
+    }
+
+    .collection_text {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 167%;
+    }
+
+}
+
+@media screen and (min-width : 1440px) {
+    .collection {
+        padding-top: 126px;
+        background-image: url(../img/collection_desktop_bgi.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    .collection_block {
+        padding: 0 85px;
+    }
+
+    .collection_list {
+        grid-template-columns: repeat(4, 1fr);
+        display: grid;
+    }
+
+    .collection_item {
+        display: block;
+        text-align: center;
+    }
+
+    .collection_img_block {
+        margin-bottom: 72px;
+    }
+
+    .collection_title {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 133%;
+        text-align: center;
+    }
+
+    .collection_text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 162%;
+        text-align: center;
+    }
+
+    .collection_img_block{
+        width: 100%;
+    }
+}

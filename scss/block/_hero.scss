@@ -1,0 +1,142 @@
+.hero {
+    padding-bottom: 120px;
+}
+
+.hero_block {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/hero_mobile_bgi.png);
+    padding: 100px 24px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hero_title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    color: #fefcf7;
+    margin-bottom: 24px;
+    width: 286px;
+    text-align: center;
+}
+
+.hero_text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    text-align: center;
+    color: #fefcf7;
+    opacity: 0.8;
+    width: 306px;
+    text-align: center;
+}
+
+
+.hero_button {
+    margin-top: 39px;
+    background: #0e8784;
+    border-radius: 6px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 139%;
+    text-align: center;
+    color: #fefcf7;
+    padding: 15px 31px 16px 31px;
+    white-space: nowrap;
+}
+
+@media screen and (min-width: 768px) {
+    .hero_block {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/hero_tablet_bgi.jpg);
+        padding: 100px 24px;
+        border-radius: 10px;
+        text-align: start;
+    }
+
+    .hero_title {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 100%;
+        text-align: center;
+        color: #fefcf7;
+        margin-bottom: 24px;
+        width: 370px;
+        text-align: center;
+        text-align: left;
+    }
+
+    .hero_text {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 167%;
+        text-align: center;
+        color: #fefcf7;
+        opacity: 0.8;
+        width: 444px;
+        text-align: center;
+        text-align: left;
+    }
+
+    .hero_button {
+        margin-top: 39px;
+        background: #0e8784;
+        border-radius: 6px;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 139%;
+        text-align: center;
+        color: #fefcf7;
+        padding: 15px 31px 16px 31px;
+
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero_block {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/hero_desktoop_bgi.png);
+        padding: 100px 24px;
+        border-radius: 10px;
+    }
+
+    .hero_title {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 100%;
+        color: #fefcf7;
+        margin-bottom: 24px;
+        width: 515px;
+        text-align: center;
+        text-align: left;
+    }
+
+    .hero_text {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 167%;
+        text-align: center;
+        color: #fefcf7;
+        opacity: 0.8;
+        width: 444px;
+        text-align: center;
+        text-align: left;
+    }
+
+    .hero_button {
+        margin-top: 39px;
+        background: #0e8784;
+        border-radius: 6px;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 139%;
+        text-align: center;
+        color: #fefcf7;
+        padding: 15px 31px 16px 31px;
+
+    }
+}
